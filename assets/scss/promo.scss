@@ -1,0 +1,133 @@
+.promo {
+    .promo-card--ctn {
+        position: relative;
+        box-shadow: 0px 7px 7px #00000029;
+        border-radius: 55px;
+        .promo-card--flex {
+            display: flex;
+            flex-direction: column;
+            .promo-logo--ctn {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #DFDFDF;
+                border-radius: 200px;
+                position: relative;
+                margin: 2em auto;
+                width: 78px;
+                height: 78px;
+                .promo-logo--id {
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
+                }
+                .promo-logo {
+                    font-family: $secondFont;
+                    font-weight: 900;
+                    font-style: italic;
+                    font-size: 30px;
+                }
+            }
+        }
+        .col {
+            flex-basis: inherit;
+        }
+    }
+    .promo-rating--ctn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .promo-rating--stars {
+        .fa-star,
+        .fa-star-half-alt {
+            color: $primaryCol;
+        }
+    }
+    .promo-rating {
+        font-family: $secondFont;
+        font-weight: bold;
+        font-size: 24px;
+        color: $primaryCol;
+    }
+    .promo-info--btn {
+        position: absolute;
+        right: 20px;
+        top: -140px;
+    }
+    .promo-text {
+        color: $headingCol;
+        font-family: $primFont;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin: 2em 0em;
+    }
+    .promo-review {
+        font-family: $secondFont;
+        font-weight: bold;
+        font-size: 14px;
+        margin-right: 20px;
+        div {
+            color: #515E6F;
+            span {
+               color: #CC0000;; 
+            }
+        }
+    }
+    .promo-offer {
+        background: transparent linear-gradient(180deg, #FFEE00 0%, #E6A100 100%) 0% 0% no-repeat padding-box;
+        border-radius: 200px;
+        color: $lightCol;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: $secondFont;
+        font-style: italic;
+        font-weight: bolder;
+        width: 60px;
+        height: 60px;
+        div {
+            font-size: 14px;
+        }
+    }
+}
+
+.promo-review-offer--flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 0em 2em 0em;
+}
+
+.promo-small--icon {
+    background: #FFD138 0% 0% no-repeat padding-box;
+    border: 1px solid #DFDFDF;
+    border-radius: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: $secondFont;
+    font-weight: bold;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+}
+
+.btn-red {
+    background: transparent linear-gradient(180deg, #E05950 0%, #933331 100%) 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    width: 176px;
+    height: 50px;
+    a {
+        font-family: $secondFont;
+        font-weight: bolder;
+        color: $lightCol;
+    }
+}

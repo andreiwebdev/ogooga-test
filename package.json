@@ -1,0 +1,16 @@
+{
+  "name": "casino.ru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-watch": "node-sass --include-path scss ./assets/scss/style.scss -w ./assets/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^4.6.0",
+    "node-sass": "^5.0.0"
+  }
+}

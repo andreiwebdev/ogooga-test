@@ -1,0 +1,85 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./fonts.scss";
+@import "./colors.scss";
+@import "./navbar.scss";
+@import "./text.scss";
+@import "./promo.scss";
+@import "./bonus.scss";
+@import "./footer.scss";
+
+.header-img {
+    background-color: gray;
+    height: 400px;
+}
+
+@media screen and (min-width: 450px) {
+    .container {
+        width: 380px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 740px;
+    }
+    .promo-info--ctn > .promo-small--icon {
+        position: initial;
+    }
+    .promo .promo-card--ctn .promo-card--flex .promo-logo--ctn {
+        margin: 0;
+    }
+    #Promo-flex--row > .promo-card--flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .promo .promo-offer div {
+        padding: 0px 10px;
+    }
+    .promo-review-offer--flex {
+        position: relative;
+        top: 20px;
+    }
+    .footer-img {
+        position: relative;
+        top: 150px;
+        left: 40px;
+    }
+    .copyright--ctn {
+        h3 {
+            position: relative;
+            bottom: 10px;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 940px;
+    }
+    .navbar-nav > li {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .container {
+        width: 1200px;
+    }
+    .company-logo {
+        font-size: 26px;
+    }
+    .navbar-nav {
+        li {
+            font-size: 14px;
+        }
+    }
+    .article-heading h1 {
+        font-size: 48px;
+    }
+    article h2 {
+        font-size: 36px;
+    }
+}
+

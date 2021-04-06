@@ -1,0 +1,27 @@
+.article-heading,
+article {
+    h1,
+    h2 {
+        color: $headingCol;
+        font-family: $primFont;
+        font-weight: bold;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-family: $secondFont;
+        font-size: 16px;
+        color: $textCol;
+    }
+}
+
+.article-img {
+    background-color: gray;
+    width: 176px;
+    height: 176px;
+    margin-bottom: 2em;
+}
